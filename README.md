@@ -1,2 +1,2 @@
 # Redstone-Liberation-Pack
- minecraft datapack
+minecraft datapack
