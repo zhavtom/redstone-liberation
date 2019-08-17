@@ -1,7 +1,3 @@
 #Score Create
-scoreboard objectives add redstone_pickaxe_damage dummy
-scoreboard objectives add redstone_pickaxe_half dummy
-scoreboard objectives add redstone_pickaxe_max dummy
-scoreboard objectives add crystal_redstone_pickaxe_damage dummy
-scoreboard objectives add crystal_redstone_pickaxe_half dummy
-scoreboard objectives add crystal_redstone_pickaxe_max dummy
+scoreboard objectives add rs_libera_dmg dummy
+scoreboard objectives add rs_libera_snk minecraft.custom:minecraft.sneak_time
