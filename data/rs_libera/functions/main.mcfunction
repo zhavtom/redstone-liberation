@@ -9,7 +9,7 @@ replaceitem entity @a[nbt={SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}}
 scoreboard players remove @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:redstone_block"}],SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}},scores={rs_libera_dmg=0..,rs_libera_snk=1..}] rs_libera_dmg 10
 scoreboard players set @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:redstone_block"}],SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}},scores={rs_libera_dmg=..-1}] rs_libera_dmg 0
 replaceitem entity @a[nbt={SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}},scores={rs_libera_dmg=250..}] weapon.mainhand minecraft:iron_pickaxe{display:{Name:"{\"text\":\"Redstone Pickaxe\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Rechargeable advanced pickaxe\",\"color\":\"gray\",\"italic\":false}"]},HideFlags:1,RepairCost:10000,Damage:250,Enchantments:[{id:"minecraft:unbreaking",lvl:32767s}],id_rs_libera:redstone_pickaxe}
-execute at @a[nbt={SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}}] store result entity @s SelectedItem.tag.Damage short 1 run scoreboard players get @p rs_libera_dmg
+execute at @a[nbt={SelectedItem:{tag:{id_rs_libera:"redstone_pickaxe"}}},scores={rs_libera_snk=1..}] store result entity @s SelectedItem.tag.Damage short 1 run scoreboard players get @p rs_libera_dmg
 
 #Sneak Detect
 scoreboard players set @a rs_libera_snk 0
