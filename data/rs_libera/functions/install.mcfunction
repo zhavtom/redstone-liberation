@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[Redstone Liberation]のレシピを入手しました。\nRecipes of [Redstone Liberation] has been unlocked.\n\nCreated by "},{"text":"E","color":"red"},{"text":"xcellay","color":"white"},{"text":"\n\nPowered by "},{"text":"Chuzume","color":"gold"}]
