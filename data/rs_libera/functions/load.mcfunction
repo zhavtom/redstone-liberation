@@ -5,6 +5,7 @@ scoreboard objectives add rs_libera_10 dummy
 scoreboard objectives add rs_libera_0 dummy
 scoreboard objectives add rs_libera_7 dummy
 scoreboard objectives add rs_libera_32767 dummy
+scoreboard objectives add rs_libera_hand dummy
 
 #Score Init
 scoreboard players set @a rs_libera_10 10
