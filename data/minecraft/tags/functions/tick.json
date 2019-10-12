@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "rs_libera:main","chuz_common:custom_crafter"
   ]
